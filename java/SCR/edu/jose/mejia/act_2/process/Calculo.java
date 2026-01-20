@@ -137,7 +137,14 @@ public class Calculo {
                 return "multiplicacion";
             case 4:
                 return "division";
-
+            case 5:
+                return "modulo";
+            case 6:
+                return "potencia";
+            case 7:
+                return "raiz";
+            case 8:
+                return "logaritmo";
         }
         return res;
     }
